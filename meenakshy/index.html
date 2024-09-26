@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HI</title>
+    <script>
+        function nameTime() {
+            let name = "Meenakshy";
+            let currentTime = new Date().toLocaleString(); 
+            document.getElementById("hi").innerHTML = `Hello ${name}, <br> Now the time is ${currentTime}`; 
+        }
+    </script>
+</head>
+<body onload="nameTime()">
+    <h3 id="hi"></h3> 
+</body>
+</html>
